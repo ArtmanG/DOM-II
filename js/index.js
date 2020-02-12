@@ -17,4 +17,14 @@ busImg.addEventListener('mouseenter', () => {
     })
   })
 
-  
+  const changeImg = document.querySelectorAll('.img-content img');
+  console.log(changeImg[0]);
+changeImg[0].addEventListener('dblclick', () => {
+  changeImg[0].src='img/fun.jpg';
+})
+
+const changeImg2 = document.querySelectorAll('.img-content img');
+  console.log(changeImg[1]);
+changeImg2[1].addEventListener('dblclick', () => {
+  changeImg2[1].src='img/adventure.jpg';
+})
